@@ -13,3 +13,14 @@ void SecondText(string[] text1, string[] text2)
         }
     }
 }
+
+void PrintText(string[] text)
+{
+    for (int i = 0; i < text.Length; i++)
+    {
+        Console.Write($"{text[i]} ");
+    }
+    Console.WriteLine();
+}
+SecondText(text1, text2);
+PrintText(text2);
